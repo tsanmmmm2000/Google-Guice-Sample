@@ -34,6 +34,9 @@ public class Configuration extends AbstractModule {
         // constructor injection
         bind(Factory.class).to(ConstructorInjection.class);
 
+        // field injection
+        // bind(Factory.class).to(FieldInjection.class);
+
         // method injection
         // bind(Factory.class).to(MethodInjection.class);
 

@@ -6,6 +6,7 @@ import operator.Operator;
 @Singleton
 public class BinaryCalculator {
 
+    // Field Injection
     @Inject
     private Factory factory;
 
